@@ -1,0 +1,26 @@
+<!-- Footer -->
+<div class="footer-container">
+    <footer role="contentinfo">
+
+        {% setcontent footers = 'footer' %}
+
+        {# Check if there are any records for the 'footer' ContentType #}
+        {% if footers %}
+            {# Loop through each record #}
+            {% for footer in footers %}
+
+                {# Output the content of each record #}
+                {{ footer.content|raw }}
+            {% endfor %}
+        {% endif %}
+
+        <img src="{{ asset('assets/leaf.svg') }}">
+
+        <p>
+            {{ __('general.phrase.built-with-bolt') }}
+        </p>
+
+    </footer>
+</div>
+
+

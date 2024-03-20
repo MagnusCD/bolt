@@ -1,0 +1,231 @@
+# This file defines the content types on the website. See the documentation for
+# details: https://docs.bolt.cm/contenttypes/intro
+
+# The Homepage content type is a singleton: There can be only one record of this
+# content type.
+
+
+
+homepage:
+    name: Homepage
+    singular_name: Homepage
+    fields:
+        title:
+            type: text
+            class: large
+            group: content
+            localize: true
+            label: Title
+            postfix: |
+                The 'Homepage' can contain basic information about the website. This title will be
+                shown on the homepage of the website, as the name implies. To change the
+                <em><strong>name</strong></em> of the site, as is shown in the header, and the tab
+                in the webbrowser, edit <code>sitename:</code> in the configuration file.
+        image:
+            type: image
+            extra:
+                title:
+                    label: The Title
+                    placeholder: This is the placeholder for the title
+                caption:
+                    label: Caption
+        teaser:
+            type: html
+            localize: true
+            height: 150px
+        content:
+            type: html
+            height: 300px
+            localize: true
+        contentlink:
+            type: text
+            label: Link
+            placeholder: 'contentType/slug or http://example.org/'
+            postfix: "Use this to add a link for this Homepage. This could either be an 'internal' link like <tt>page//about</tt>, if you use a contentType/slug combination. Otherwise use a proper URL, like `http://example.org`."
+        slug:
+            type: slug
+            uses: title
+            group: meta
+    viewless: false
+    taxonomy: [ categories, tags, foobars ]
+    locales: ['en', 'nl', 'ja', 'nb']
+    singleton: true
+    icon_many: "fa:home"
+    icon_one: "fa:home"
+
+blogposts:
+    name: Blog Posts
+    singular_name: Blog Post
+    fields:
+        title:
+            type: text
+        content:
+            type: article
+        image:
+            type: image
+        datepublished:
+            type: date
+            mode: datetime
+            label: Date Published
+    listing_records: 5
+            
+subscriptionposts:
+    name: Subscription Posts 
+    singular_name: Subscription Post
+    fields:
+        title:
+            type: text
+        content:
+            type: article
+        image:
+            type: image
+        datepublished:
+            type: date
+            mode: datetime
+            label: Date Published
+    listing_records: 5
+    
+posts:
+    name: Posts
+    singular_name: Post
+    fields:
+        title:
+            type: text
+        content:
+            type: article
+        image:
+            type: file
+            extensions: [ png, jpg, jpeg ]
+        datepublished:
+            type: date
+            mode: datetime
+            label: Date Published
+       # slug:
+       #     type: slug
+       #     uses: title
+    listing_records: 5        
+
+forum:
+    name: Forum
+    singular_name: Forum
+    fields:
+        title:
+            type: text
+            class: large
+        content:
+            type: html
+            height: 300px
+        slug:
+            type: slug
+            uses: title
+    singleton: true
+    
+forumform:
+    name: Forumform
+    singular_name: Forumform
+    fields:
+        title:
+            type: text
+            class: large
+        content:
+            type: html
+            height: 300px
+        slug:
+            type: slug
+            uses: title
+    singleton: true
+
+blocks:
+    name: Blocks
+    singular_name: Block
+    excerpt_format: '{teaser}'
+    fields:
+        title:
+            type: text
+            class: large
+            label: Title of this Block
+            group: Block
+        image:
+            type: image
+        teaser:
+            type: redactor
+            fixture_format: '{paragraph}'
+        content:
+            type: redactor
+        contentlink:
+            type: text
+            label: Link
+            placeholder: 'contentType/slug or https://example.org/'
+            postfix: "Use this to add a link for this Homepage. This could either be an 'internal' link like <tt>page//about</tt>, if you use a contentType/slug combination. Otherwise use a proper URL, like `https://example.org`."
+            fixture_format: '{url}'
+        slug:
+            type: slug
+            uses: [ title ]
+            group: Meta
+    show_on_dashboard: true
+    viewless: true
+    default_status: published
+    searchable: false
+    order: title
+    icon_many: "fa:cubes"
+    icon_one: "fa:cube"
+
+contact:
+    name: Contact
+    singular_name: Contact Page
+    fields:
+        title:
+            type: text
+            class: large
+        content:
+            type: html
+            height: 300px
+        slug:
+            type: slug
+            uses: title
+    singleton: true        
+            
+login:
+    name: Login
+    singular_name: Login Page
+    fields:
+        title:
+            type: text
+            class: large
+        content:
+            type: html
+            height: 300px
+        slug:
+            type: slug
+            uses: title            
+    singleton: true     
+    
+    
+register:
+    name: Register
+    singular_name: Register
+    fields:
+        title:
+            type: text
+            class: large
+        content:
+            type: html
+            height: 300px
+        slug:
+            type: slug
+            uses: title
+    singleton: true
+
+
+
+footer:
+    name: Footer
+    singular_name: Footer
+    fields:
+        name: 
+            type: text
+            variant: inline
+        content:
+            type: html
+            height: 300px
+

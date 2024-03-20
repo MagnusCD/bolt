@@ -1,0 +1,36 @@
+{% extends 'partials/_master.twig' %}
+
+{% block main %}
+
+    {# Fetch the most recent blog post #}
+    {% setcontent recentBlogPost = 'blog-posts' latest limit 1 %}
+
+    {# Check if a recent blog post is found #}
+    {% if recentBlogPost|length > 0 %}
+
+        <h2>Recent Blog Post</h2>
+
+        {# Display the teaser of the most recent blog post #}
+        {% for post in recentBlogPost %}
+            <article>
+                <h3><a href="{{ post|link }}">{{ post|title }}</a></h3>
+
+                {# Display only the teaser #}
+                {{ post.teaser }}
+
+                {# Include the image if available #}
+                {% include 'partials/_image.twig' with ({'image': post|image}) %}
+
+                {# Include the record footer if needed #}
+                {{ include('partials/_recordfooter.twig', { 'record': post }) }}
+            </article>
+        {% endfor %}
+
+    {% else %}
+
+        {# Display a message if no recent blog posts are found #}
+        <p>No recent blog posts found.</p>
+
+    {% endif %}
+
+{% endblock main %}

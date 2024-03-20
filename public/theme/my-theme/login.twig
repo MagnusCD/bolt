@@ -1,0 +1,19 @@
+{% extends 'partials/_master.twig' %}
+
+{% block main %}
+
+    <form action="/login-check" method="post">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="_username" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="_password" required>
+
+        <button type="submit">Login</button>
+    </form>
+
+    <!-- Add a button for creating a new user -->
+    <!-- This button is placed outside the login form -->
+    <a href="/register" class="btn">Create User</a>
+
+{% endblock main %}

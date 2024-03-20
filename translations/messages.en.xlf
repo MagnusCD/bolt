@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="en">
+  <file id="messages.en">
+    <unit id="3NHVIj9" name="Name">
+      <segment>
+        <source>Name</source>
+        <target>Name</target>
+      </segment>
+    </unit>
+    <unit id="rMKsKxN" name="Your name...">
+      <segment>
+        <source>Your name...</source>
+        <target>Your name...</target>
+      </segment>
+    </unit>
+    <unit id="8kiP1O9" name="Email address">
+      <segment>
+        <source>Email address</source>
+        <target>Email address</target>
+      </segment>
+    </unit>
+    <unit id="TMY52.l" name="Your email...">
+      <segment>
+        <source>Your email...</source>
+        <target>Your email...</target>
+      </segment>
+    </unit>
+    <unit id="egV72Za" name="Your message">
+      <segment>
+        <source>Your message</source>
+        <target>Your message</target>
+      </segment>
+    </unit>
+    <unit id="gvYWw0o" name="Your message...">
+      <segment>
+        <source>Your message...</source>
+        <target>Your message...</target>
+      </segment>
+    </unit>
+    <unit id="2Iib8ls" name="Do you want us to contact you back?">
+      <segment>
+        <source>Do you want us to contact you back?</source>
+        <target>Do you want us to contact you back?</target>
+      </segment>
+    </unit>
+    <unit id="haOas0X" name="Yes">
+      <segment>
+        <source>Yes</source>
+        <target>Yes</target>
+      </segment>
+    </unit>
+    <unit id="HqRCoTS" name="No">
+      <segment>
+        <source>No</source>
+        <target>No</target>
+      </segment>
+    </unit>
+    <unit id="_.3xzA_" name="Submit my message »">
+      <segment>
+        <source>Submit my message »</source>
+        <target>Submit my message »</target>
+      </segment>
+    </unit>
+    <unit id=".MeoEev" name="String city processor string">
+      <segment>
+        <source>String city processor string</source>
+        <target>String city processor string</target>
+      </segment>
+    </unit>
+    <unit id="JKqEovv">
+      <segment>
+        <source>Unfortunately, no content could be found. Try another page, or go to the &lt;a href="%paths_root%"&gt;homepage&lt;/a&gt;.</source>
+        <target><![CDATA[Unfortunately, no content could be found. Try another page, or go to the <a href="/">homepage</a>.]]></target>
+      </segment>
+    </unit>
+    <unit id="Ej.WZqo" name="danger">
+      <segment>
+        <source>danger</source>
+        <target>danger</target>
+      </segment>
+    </unit>
+    <unit id="ekJPePm" name="You do not have permission to access this page.">
+      <segment>
+        <source>You do not have permission to access this page.</source>
+        <target>You do not have permission to access this page.</target>
+      </segment>
+    </unit>
+    <unit id="47ienTP" name="Username">
+      <segment>
+        <source>Username</source>
+        <target>Username</target>
+      </segment>
+    </unit>
+    <unit id="RZQ0CeQ" name="Plain password">
+      <segment>
+        <source>Plain password</source>
+        <target>Plain password</target>
+      </segment>
+    </unit>
+    <unit id="K39qhN6" name="Display name">
+      <segment>
+        <source>Display name</source>
+        <target>Display name</target>
+      </segment>
+    </unit>
+    <unit id="yj3GEvR" name="Locale">
+      <segment>
+        <source>Locale</source>
+        <target>Locale</target>
+      </segment>
+    </unit>
+    <unit id="ck7H4R0" name="🇬🇧 English (English, en)">
+      <segment>
+        <source>🇬🇧 English (English, en)</source>
+        <target>🇬🇧 English (English, en)</target>
+      </segment>
+    </unit>
+    <unit id="OYjFtpq" name="🇳🇱 Dutch (Nederlands, nl)">
+      <segment>
+        <source>🇳🇱 Dutch (Nederlands, nl)</source>
+        <target>🇳🇱 Dutch (Nederlands, nl)</target>
+      </segment>
+    </unit>
+    <unit id="5T_xOwD" name="🇪🇸 Spanish (español, es)">
+      <segment>
+        <source>🇪🇸 Spanish (español, es)</source>
+        <target>🇪🇸 Spanish (español, es)</target>
+      </segment>
+    </unit>
+    <unit id="KdAUVgn" name="🇫🇷 French (français, fr)">
+      <segment>
+        <source>🇫🇷 French (français, fr)</source>
+        <target>🇫🇷 French (français, fr)</target>
+      </segment>
+    </unit>
+    <unit id="lWQ7qzO" name="🇩🇪 German (Deutsch, de)">
+      <segment>
+        <source>🇩🇪 German (Deutsch, de)</source>
+        <target>🇩🇪 German (Deutsch, de)</target>
+      </segment>
+    </unit>
+    <unit id="C.ofX.N" name="🇵🇱 Polish (polski, pl)">
+      <segment>
+        <source>🇵🇱 Polish (polski, pl)</source>
+        <target>🇵🇱 Polish (polski, pl)</target>
+      </segment>
+    </unit>
+    <unit id="yBFBJ_r" name="🇮🇹 Italian (italiano, it)">
+      <segment>
+        <source>🇮🇹 Italian (italiano, it)</source>
+        <target>🇮🇹 Italian (italiano, it)</target>
+      </segment>
+    </unit>
+    <unit id="JAEGK4h" name="🇭🇺 Hungarian (magyar, hu)">
+      <segment>
+        <source>🇭🇺 Hungarian (magyar, hu)</source>
+        <target>🇭🇺 Hungarian (magyar, hu)</target>
+      </segment>
+    </unit>
+    <unit id="haZuAt9" name="🇧🇷 Portuguese (Brazil) (português (Brasil), pt_BR)">
+      <segment>
+        <source>🇧🇷 Portuguese (Brazil) (português (Brasil), pt_BR)</source>
+        <target>🇧🇷 Portuguese (Brazil) (português (Brasil), pt_BR)</target>
+      </segment>
+    </unit>
+    <unit id="TdsGK_a" name="🇯🇵 Japanese (日本語, ja)">
+      <segment>
+        <source>🇯🇵 Japanese (日本語, ja)</source>
+        <target>🇯🇵 Japanese (日本語, ja)</target>
+      </segment>
+    </unit>
+    <unit id="i9HC6a9" name="🇳🇴 Norwegian Bokmål (Norwegian Bokmål, nb)">
+      <segment>
+        <source>🇳🇴 Norwegian Bokmål (Norwegian Bokmål, nb)</source>
+        <target>🇳🇴 Norwegian Bokmål (Norwegian Bokmål, nb)</target>
+      </segment>
+    </unit>
+    <unit id="AgHkNcj" name="🇳🇴 Norwegian Nynorsk (Norwegian Nynorsk, nn)">
+      <segment>
+        <source>🇳🇴 Norwegian Nynorsk (Norwegian Nynorsk, nn)</source>
+        <target>🇳🇴 Norwegian Nynorsk (Norwegian Nynorsk, nn)</target>
+      </segment>
+    </unit>
+    <unit id="o2BC3fk" name="🇳🇱 Dutch (Netherlands) (Nederlands (Nederland), nl_NL)">
+      <segment>
+        <source>🇳🇱 Dutch (Netherlands) (Nederlands (Nederland), nl_NL)</source>
+        <target>🇳🇱 Dutch (Netherlands) (Nederlands (Nederland), nl_NL)</target>
+      </segment>
+    </unit>
+    <unit id="3FWDCWF" name="🇧🇪 Dutch (Belgium) (Nederlands (België), nl_BE)">
+      <segment>
+        <source>🇧🇪 Dutch (Belgium) (Nederlands (België), nl_BE)</source>
+        <target>🇧🇪 Dutch (Belgium) (Nederlands (België), nl_BE)</target>
+      </segment>
+    </unit>
+    <unit id="TXqQGyg" name="🇮🇸 Icelandic (íslenska, is)">
+      <segment>
+        <source>🇮🇸 Icelandic (íslenska, is)</source>
+        <target>🇮🇸 Icelandic (íslenska, is)</target>
+      </segment>
+    </unit>
+    <unit id="zuiBcFU" name="🇷🇺 Russian (русский, ru)">
+      <segment>
+        <source>🇷🇺 Russian (русский, ru)</source>
+        <target>🇷🇺 Russian (русский, ru)</target>
+      </segment>
+    </unit>
+    <unit id="2Ve_6hq" name="🇨🇿 Czech (čeština, cs)">
+      <segment>
+        <source>🇨🇿 Czech (čeština, cs)</source>
+        <target>🇨🇿 Czech (čeština, cs)</target>
+      </segment>
+    </unit>
+    <unit id="DgsxlBP" name="🇧🇬 Bulgarian (български, bg)">
+      <segment>
+        <source>🇧🇬 Bulgarian (български, bg)</source>
+        <target>🇧🇬 Bulgarian (български, bg)</target>
+      </segment>
+    </unit>
+    <unit id="yo6CbZw" name="Avatar">
+      <segment>
+        <source>Avatar</source>
+        <target>Avatar</target>
+      </segment>
+    </unit>
+    <unit id="wlM3BVR" name="Roles">
+      <segment>
+        <source>Roles</source>
+        <target>Roles</target>
+      </segment>
+    </unit>
+    <unit id="PcxrMdK" name="ROLE_DEVELOPER">
+      <segment>
+        <source>ROLE_DEVELOPER</source>
+        <target>ROLE_DEVELOPER</target>
+      </segment>
+    </unit>
+    <unit id="718iPw6" name="ROLE_ADMIN">
+      <segment>
+        <source>ROLE_ADMIN</source>
+        <target>ROLE_ADMIN</target>
+      </segment>
+    </unit>
+    <unit id="PfM8km6" name="ROLE_CHIEF_EDITOR">
+      <segment>
+        <source>ROLE_CHIEF_EDITOR</source>
+        <target>ROLE_CHIEF_EDITOR</target>
+      </segment>
+    </unit>
+    <unit id="NoS6pIL" name="ROLE_EDITOR">
+      <segment>
+        <source>ROLE_EDITOR</source>
+        <target>ROLE_EDITOR</target>
+      </segment>
+    </unit>
+    <unit id="rvO5ZXf" name="ROLE_USER">
+      <segment>
+        <source>ROLE_USER</source>
+        <target>ROLE_USER</target>
+      </segment>
+    </unit>
+    <unit id="Ds88Wi5" name="ROLE_USER_REGULAR">
+      <segment>
+        <source>ROLE_USER_REGULAR</source>
+        <target>ROLE_USER_REGULAR</target>
+      </segment>
+    </unit>
+    <unit id="4_3u3th" name="ROLE_USER_SUBSCRIBER">
+      <segment>
+        <source>ROLE_USER_SUBSCRIBER</source>
+        <target>ROLE_USER_SUBSCRIBER</target>
+      </segment>
+    </unit>
+    <unit id="F_Zedh_" name="ROLE_WEBSERVICE">
+      <segment>
+        <source>ROLE_WEBSERVICE</source>
+        <target>ROLE_WEBSERVICE</target>
+      </segment>
+    </unit>
+    <unit id="kg5BPH1" name="Status">
+      <segment>
+        <source>Status</source>
+        <target>Status</target>
+      </segment>
+    </unit>
+    <unit id="X_zrZv." name="0">
+      <segment>
+        <source>0</source>
+        <target>0</target>
+      </segment>
+    </unit>
+    <unit id="a4ayc.8" name="1">
+      <segment>
+        <source>1</source>
+        <target>1</target>
+      </segment>
+    </unit>
+    <unit id="gzrulnn" name="Subject of your message">
+      <segment>
+        <source>Subject of your message</source>
+        <target>Subject of your message</target>
+      </segment>
+    </unit>
+    <unit id="6YXDzXu" name="Just a quick message...">
+      <segment>
+        <source>Just a quick message...</source>
+        <target>Just a quick message...</target>
+      </segment>
+    </unit>
+    <unit id="XxC392U">
+      <segment>
+        <source>Well, the other day I was thinking that maybe you ought to improve your website by adding...</source>
+        <target>Well, the other day I was thinking that maybe you ought to improve your website by adding...</target>
+      </segment>
+    </unit>
+    <unit id="h6N1SFf" name="Picture of your pet that you want us to add to our site">
+      <segment>
+        <source>Picture of your pet that you want us to add to our site</source>
+        <target>Picture of your pet that you want us to add to our site</target>
+      </segment>
+    </unit>
+    <unit id="8_PBalB" name="Subject of your post">
+      <segment>
+        <source>Subject of your post</source>
+        <target>Subject of your post</target>
+      </segment>
+    </unit>
+    <unit id="7p7P9kq" name="Your post">
+      <segment>
+        <source>Your post</source>
+        <target>Your post</target>
+      </segment>
+    </unit>
+    <unit id="R70pB1_" name="Content">
+      <segment>
+        <source>Content</source>
+        <target>Content</target>
+      </segment>
+    </unit>
+    <unit id="GqTLC8y" name="Image">
+      <segment>
+        <source>Image</source>
+        <target>Image</target>
+      </segment>
+    </unit>
+    <unit id="UACc4dp" name="File">
+      <segment>
+        <source>File</source>
+        <target>File</target>
+      </segment>
+    </unit>
+    <unit id="uQGp51Y" name="Datepublished">
+      <segment>
+        <source>Datepublished</source>
+        <target>Datepublished</target>
+      </segment>
+    </unit>
+    <unit id="ifaDJWD" name="Year">
+      <segment>
+        <source>Year</source>
+        <target>Year</target>
+      </segment>
+    </unit>
+    <unit id="MQylA_8" name="Month">
+      <segment>
+        <source>Month</source>
+        <target>Month</target>
+      </segment>
+    </unit>
+    <unit id="jyNk4Ru" name="Day">
+      <segment>
+        <source>Day</source>
+        <target>Day</target>
+      </segment>
+    </unit>
+    <unit id="D5xZg92" name="Submit my post »">
+      <segment>
+        <source>Submit my post »</source>
+        <target>Submit my post »</target>
+      </segment>
+    </unit>
+  </file>
+</xliff>

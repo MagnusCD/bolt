@@ -1,0 +1,50 @@
+# config/extensions/bolt-boltforms/quotation.yaml
+
+templates:                      # Override the global Twig templates if you want
+#        form: @theme/form.twig
+#        email: @theme/email.twig
+#        subject: @theme/subject.twig
+#        files: @theme/file_browser.twig
+feedback:
+    success: Quotation request has been received. We'll be in touch soon.
+    error: There are errors in the form. Please fix them, before trying to resubmit
+database:
+    contenttype:
+        name: quotations # save all form submissions to the quotations contenttype
+        ignore_missing: true # ignore fields in the form that aren't defined in the ContentType
+fields:
+    name:
+        type: text
+        options:
+            required: true
+            label: Name
+            attr:
+                placeholder: Your name...
+            constraints: [ NotBlank, { Length: { 'min': 3, 'max': 128 } } ]
+    email:
+        type: email
+        options:
+            required: true
+            label: Email address
+            attr:
+                placeholder: Your email...
+            constraints: [ NotBlank, Email ]
+    needhelp:
+        type: choice
+        options:
+            required: true
+            label: What project do you need help with?
+            choices: { 'Web development': 'web-development', 'Mobile development': 'mobile-development', 'Marketing': 'marketing' }
+    details:
+        type: textarea
+        options:
+            required: true
+            label: Description
+            attr:
+                placeholder: Please describe your desired website or app…
+    submit:
+        type: submit
+        options:
+            label: Request quotation »
+            attr:
+                class: button primary

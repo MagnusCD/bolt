@@ -1,0 +1,16 @@
+{% extends 'partials/_master.twig' %}
+
+{% block main %}
+
+    {% for message in app.flashes('notice') %}
+        <div class="notice alert-notice">
+            {{ message }}
+        </div>
+    {% endfor %}
+
+    {{ form_start(registrationForm) }}
+    {{ form_widget(registrationForm) }}
+    {#   <button type="submit">Register</button> #}
+    <input type="submit" value="send"/>
+    {{ form_end(registrationForm) }}
+{% endblock %}

@@ -1,0 +1,13 @@
+{% extends 'partials/_master.twig' %}
+
+{% block main %}
+
+    <!-- Button to add a new post -->
+    <div class="add-post-button">
+        <a href="{{ path('forumform') }}" class="btn btn-primary">Add New Post</a>
+    </div>
+
+    {%  include 'listing.twig' %}
+
+{% endblock %}
+
